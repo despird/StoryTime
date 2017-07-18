@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d50a782d-c584-4408-bf5e-32cf2842f475}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SubSystem</RootNamespace>
+    <AssemblyName>SubSystem</AssemblyName>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <Name>Patterns</Name>
+  </PropertyGroup>
+  <PropertyGroup>
+    <!-- Experimental LocalAppData -->
+    <SomeBinPath Condition=" '$(SomeBinPath)' == '' AND Exists('$(LocalAppData)\Microsoft\VisualStudio\10.0Exp\Extensions\StoryTime\SomeLanguageProject\1.0\CompilerTask\Some.targets')">$(LocalAppData)\Microsoft\VisualStudio\10.0Exp\Extensions\StoryTime\SomeLanguageProject\1.0\CompilerTask</SomeBinPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="bridge.smr">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bridge_story.sms">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abstract_factory.smr">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="abastract_factory_story.sms">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="strategy.smr">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="strategy_story.sms">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(SomeBinPath)\Some.targets" />
+</Project>

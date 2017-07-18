@@ -1,0 +1,19 @@
+AHandler ->AHandler[m_successorHandler]
+	a_HandleCRequest(CRequest )
+	SetSuccessor(AHandler m_successorHandler)
+
+CConcreteHandler1 : AHandler
+	o_HandleCRequest(CRequest)
+
+CConcreteHandler2 : AHandler
+	o_HandleCRequest(CRequest)
+
+CConcreteHandler3 : AHandler
+	o_HandleCRequest(CRequest)
+
+CRequest 
+	(int _iCRequestType, string _strCRequestParameters)		//include defination of 2 private members
+
+CClient
+	main
+

@@ -1,0 +1,19 @@
+AComponent
+	a_Draw()
+	
+CConcreteComponent :AComponent
+	(string _strName)
+	o_Draw()
+
+ADecorator : AComponent, ->AComponent[m_actualComponent]
+	SetComponent(AComponent m_actualComponent)
+	o_Draw()
+
+CConcreteDecorator : ADecorator
+	(string _strDecoratorName)
+	o_Draw()
+	CustomDecoration()
+
+CClient
+	AComponent Setup()
+	main

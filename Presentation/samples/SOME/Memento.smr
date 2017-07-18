@@ -1,0 +1,17 @@
+COriginator		 
+	double _manufacturer
+	double _distributor
+	double _retailer
+	MakeSale(double)
+	CMemento CreateMemento()
+	SetMemento(CMemento)
+
+CMemento
+	(double r_A,double r_B,double r_C)		//a constructor and 3 read-only properties
+
+Ccaretaker
+
+
+CClient
+	main
+

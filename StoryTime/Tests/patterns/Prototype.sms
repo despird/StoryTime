@@ -1,0 +1,10 @@
+CClient.main
+{
+	CDemo demo.();
+	CMyPrototype clientPrototype.();
+	demo.SetPrototype(_internalPrototype = clientPrototype);				
+	demo.SomeImportantOperation()
+	{
+		AAbstractPrototype x = _internalPrototype.CloneYourself();			
+	};
+}

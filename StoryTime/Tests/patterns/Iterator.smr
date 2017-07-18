@@ -1,0 +1,20 @@
+CNode
+	(string r_Name)			//constructor and a read-only property 
+
+CNodeCollection  ->CNode[][_list]		//collection referrence define
+	int r_NodeMax
+	AddNode(CNode)
+	GetNode(int)
+
+AIterator 
+	CNode a_Next()
+	
+CReverseIterator : AIterator ->CNodeCollection[_nodeCollection]
+	int _currentIndex
+	(CNodeCollection)
+	CNode o_Next()
+
+CClient
+	main
+
+

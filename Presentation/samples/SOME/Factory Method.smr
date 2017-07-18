@@ -1,0 +1,16 @@
+CDPDocument											
+	
+CMyDocument :CDPDocument				
+
+ADPApplication ->CDPDocument[m_doc]				
+	a_CreateDocument()							
+	ConstructObjects() 							
+	a_Dump()										
+
+CMyApplication :ADPApplication
+	o_CreateDocument()
+	o_Dump()
+
+CClient
+	main
+

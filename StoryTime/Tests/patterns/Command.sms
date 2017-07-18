@@ -1,0 +1,26 @@
+
+CClient.main
+{
+	// Set up everything
+	ACommand command<CConcreteCommand>.();
+	CReceiver receiver.();
+	command.R = receiver;
+	CInvoker invoker.();
+	invoker.Command = command;
+
+	// now let application run
+	// the invoker is how the command is exposed for the end-user 
+	// (or a client) initiates the command, 
+	// (e.g. toolbar button, menu item)
+	invoker.ExecuteCommand()
+	{
+		_command.Execute<CConcreteCommand>()
+		{
+				<% Console.WriteLine("Command executed"); %>
+				_r.InformAboutCommand()
+				{
+					<% Console.WriteLine("Receiver informed about command"); %>
+				};
+		};
+	};
+}

@@ -1,0 +1,57 @@
+CClient.main
+{
+	CNodeCollection c.();
+	CNode node1.("first");
+	
+	c.AddNode(node[node1])
+	{
+		<%
+		_list.Add(node); 
+		 nodeMax++;	
+		%>
+	};
+	
+	CNode node2.("second");
+	c.AddNode(node2);				//need not re-define
+	
+	CNode node3.("third");	//need not re-define
+	c.AddNode(node3);
+
+	// now use iterator to traverse this
+	CReverseIterator i.(_nodeCollection = c)
+	{
+		<% _currentIndex = c.NodeMax -1; /*array index starts at 0!*/ %>
+	};
+
+	// the code below will work with any iterator type
+	CNode n;
+	<%
+	do 
+	{
+	%>
+		n = i.Next<CReverseIterator>()
+		{
+			<%
+		    if (_currentIndex == -1)
+		    {
+					return null;
+				}
+				else 
+				{
+					return(_nodeCollection.GetNode(i[_currentIndex--]))
+					{
+						return ((CNode) list[i]);
+					};
+				}
+			%>
+		};
+	<%
+		if (n != null) 
+		{
+			Console.WriteLine("{0}", n.Name);
+		}
+	} while (n != null);
+				
+  return 0;
+  %>
+}

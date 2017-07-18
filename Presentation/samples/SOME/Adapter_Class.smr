@@ -1,0 +1,12 @@
+CFrameworkXTarget
+	v_SomeRequest(int)
+
+CFrameworkYAdaptee
+	QuiteADifferentRequest(string)
+
+COurAdapter : CFrameworkXTarget,->CFrameworkYAdaptee[_adaptee.()]
+	o_SomeRequest(int)
+
+CClient
+	GenericClientCode(CFrameworkXTarget)
+	main

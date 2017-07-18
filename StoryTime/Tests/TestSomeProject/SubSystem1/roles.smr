@@ -1,0 +1,13 @@
+﻿NSubSystem
+
+CAlgorithm 
+	DoAlgorithm()
+	v_DoAlgoStep3()
+	v_DoAlgoStep5()
+
+CCustomAlgorithm : CAlgorithm
+	o_DoAlgoStep3()
+	o_DoAlgoStep5()
+
+CClient
+	main

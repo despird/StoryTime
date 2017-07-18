@@ -1,0 +1,14 @@
+CClient.main
+{
+	CFirstStrategy firstStrategy.();
+	CContext c.(_s = firstStrategy);		// quick asignment
+	c.DoWork();
+	c.DoStrategyWork()
+	{
+		_s.DoAlgorithm<CFirstStrategy>()
+		{
+			<% Console.WriteLine("In first strategy");	%>	
+		};
+	};
+}
+	

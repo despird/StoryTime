@@ -1,0 +1,23 @@
+AVisitor
+	a_VisitElementA(CConcreteElementA a)
+	a_VisitElementB(CConcreteElementB b)
+
+CConcreteVisitor1:AVisitor
+	o_VisitElementA(CConcreteElementA a)
+	o_VisitElementB(CConcreteElementB b)
+
+AElement 
+	a_Accept(AVisitor v)
+
+CConcreteElementA  :AElement, ->AVisitor[m_myVisitor]
+	o_Accept(AVisitor)		
+	OperatorA()
+	DoSomeWork()
+
+CConcreteElementB: AElement
+	o_Accept(AVisitor m_myVisitor)
+	OperationB()
+
+CClient
+	main
+

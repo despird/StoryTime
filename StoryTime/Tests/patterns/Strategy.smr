@@ -1,0 +1,17 @@
+AStrategy
+	a_DoAlgorithm()
+
+CFirstStrategy : AStrategy 
+	o_DoAlgorithm()
+
+CSecondStrategy : AStrategy
+	o_DoAlgorithm()
+
+CContext	->AStrategy[_s]
+	(AStrategy)
+	DoWork()
+	DoStrategyWork()
+
+CClient
+	main
+

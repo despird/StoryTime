@@ -1,0 +1,16 @@
+CClient.main
+{
+	CClient c.();
+	CFrameworkXTarget x<COurAdapter>.();
+	c.GenericClientCode(x)
+	{
+		x.SomeRequest<COurAdapter>(a[4])					//4 is not index of array,it is just a real object that would be passed by parameter a
+		{
+				<%
+				string b;
+				b = a.ToString();
+				%>
+				_adaptee.QuiteADifferentRequest(b);
+		};
+	};	
+}

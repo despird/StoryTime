@@ -1,0 +1,65 @@
+TODO:
+[designer story]
+.supporting code generation into projects 
+   if namespace is declared, use namespace as project name, if not, use smr file name as project name 
+   supporting namepace (N[Namepsace]) feature in SOME.
+   supporting namepace import (e.g. <-System.IO)
+.supporting .som to allows user to generate code into single file.
+   user right-clike a file and click "generate->c#->[project name]" 
+.getting msbuild target works and make language edit features work under Project template
+.syntax coloring for types
+.syntax highlighting when clicking an identifier
+.auto completion for types
+.intellisense for members
+.error highlighting
+.code and project generation: single file/project/solution generation, bidirectional synchronisation
+.language enhancement: namespace, conditional and loop(can be done after developer story)
+
+ideas:
+.no more class design, change sequence as "story"
+.the classes will be automatically synchronised while texting a SOME story, the current active class.method will reflect the current sequence
+.while a new namespace is created, a new csproj will be added into the solution
+.while a new class is created into a namespace, a new file will be added in the relative csproj 
+.name space reference N_<NAMESPACE>, 
+.when a class first time appers, should use namespace to reference it, in later appearence, if no name clash, use class name only should also be fine
+.when a method first appears, should clearly specify its feature.
+.when a object first appears, should clearly specify its type,
+ _user<User>:  private User _user; (member variable)
+ User user: (local variable)
+.when design finishes, the classes will be generated, each name space will be in separate csproj, and each class is in single file.
+
+*****************************************
+[developer story]
+.function call profiling: function story extracting
+.parse source code into call tree
+.load grand children when unfolding into children
+.each story starts from an funtions that stays in the tree root (i.e. an event handler)
+.options: 
+ -click "full story" show every call hierachy for every event handlers
+ -click "pre-defined" only show these call hierachy starting from specially tagged event handlers (or even regular methods))
+
+.if clicked "full story", show check boxes for categories (event handler, webmethods, main entry, etc), only show those starting methods
+ for chosen categories. this is to filter out unwanted types of events.
+
+****************************************
+[user story]
+.treeview
+.tags are represented specially formatted comment
+.each user story is generated from the special tags(comments) in the source code
+.each user story has a start and a end
+.the comments/tags can be xml comments for the methods, or within the function call
+.VS templates generation for every popular frameworks(asp.net, winform, wpf, wcf, webservice, silverlight, autofac, etc.)
+.code bidirectional synchronisaton
+.a node can be a gui(form), a function call or an execution unit within a function call
+.each node should be highlighted as the type of the node (form, a web method, etc)
+.intellisense support for generating User Story tags/comments
+.(agile) design by comment ***** building the classes, methods at the time of the writting user stories(comments)
+.flowchart documentation
+
+ideas:
+when running application, the story path will be listed in a window, click "save" will save into a "story" documentation
+**********************************************************************
+
+[Tester Story]
+.grouped by user stories
+.for each story create one or many unit test entries 

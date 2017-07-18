@@ -1,0 +1,29 @@
+CClient.main
+{
+	COriginator o.();
+	o.MakeSale(purchasePrice[45.])
+	{
+		<% 			
+			_manufacturer += purchasePrice * 0.40;
+			_distributor += purchasePrice * 0.3;
+			_retailer += purchasePrice * 0.3;
+ 		%>
+	};
+	o.MakeSale(60.);
+	
+	CMemento m = o.CreateMemento()									/*creation and assign*/
+	{
+		CMemento.( _a = _manufacturer, _b = _distributor, _c = _retailer);				/* anonymous creation means it will be returned */
+	};
+	
+	o.MakeSale(60.);
+	o.MakeSale(10.);
+	o.MakeSale(320.);
+	
+	o.SetMemento(m)		
+	{ 
+		_manufacturer = m.A; 
+		_distributor = m.B; 
+		_retailer = m.C;
+	};
+}

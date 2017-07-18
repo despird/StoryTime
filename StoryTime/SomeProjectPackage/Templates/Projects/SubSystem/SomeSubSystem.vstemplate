@@ -1,0 +1,20 @@
+﻿<VSTemplate Version="2.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Sub System</Name>
+    <Description>A project for creating a SOME Sub-system</Description>
+    <Icon>SubSystem.ico</Icon>
+    <ProjectType>Some</ProjectType>
+    <SortOrder>50</SortOrder>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SubSystem</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="SubSystem.smproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">roles.smr</ProjectItem>
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">story1.sms</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

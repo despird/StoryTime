@@ -1,0 +1,30 @@
+CClient.main
+{
+	CCustomAlgorithm c.();
+	c.DoAlgorithm<CAlgorithm>()
+	{
+		<%
+		Console.WriteLine("In DoAlgorithm");
+			
+		// do some part of the algorithm here
+			
+		// step1 goes here
+		Console.WriteLine("In Algorithm - DoAlgoStep1");			
+		// . . . 
+
+		// step 2 goes here
+		Console.WriteLine("In Algorithm - DoAlgoStep2");			
+		// . . . 
+
+		// Now call configurable/replacable part
+		DoAlgoStep3();
+
+		// step 4 goes here
+		Console.WriteLine("In Algorithm - DoAlgoStep4");			
+		// . . . 
+
+		// Now call next configurable part
+		DoAlgoStep5();
+		%>
+	};
+}

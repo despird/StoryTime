@@ -1,0 +1,24 @@
+CClient.main
+{
+	CMediator m.();
+	CDataProviderColleague c1.(_mediator=m);			
+	CDataConsumerColleague c2.();
+	m.IntroduceColleagues(_dataProvider = c1,_dataConsumer = c2);
+
+	c1.ChangeData()
+	{
+		<% if(mediator != null )%> 
+		<%{ %>
+			_mediator.DataChanged()
+			{
+			  int i = dataProvider.MyData;
+				_dataConsumer.NewValue(i)
+				{
+					<% Console.WriteLine("New value {0}", i); %>
+				};
+			};
+		<%}	%>
+	};
+}
+	
+	

@@ -1,0 +1,36 @@
+AA -> IB[m_ib] ->AAB[Ab]
+
+CAA: AA
+
+CAAA: CAA
+
+CAAAA: CAAA
+
+CAAAB: CAAA
+
+AAB: AA
+
+CABA: AAB
+
+CABB: AAB
+
+CABBA: CABB
+
+CABBB: CABB
+
+CABBC: CABB
+
+CAC: AA
+
+IB
+	
+CBA: IB
+
+CBB: IB
+
+CBAA: CBA
+	Main
+	
+CBAA.main
+{
+}

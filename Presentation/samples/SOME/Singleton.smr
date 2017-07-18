@@ -1,0 +1,8 @@
+CSingleton	-> CSingleton[_instance]
+	v_()																	//protected constructor; 
+	CSingleton s_Instance()						//static function
+	int X														//property with getter and setter
+
+CClient
+	main
+	

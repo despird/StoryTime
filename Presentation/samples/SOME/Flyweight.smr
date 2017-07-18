@@ -1,0 +1,20 @@
+CFlyweightFactory -> AFlyweight[][_pool]
+	()
+	AFlyweight GetFlyweight(int)
+
+AFlyweight 
+	a_DoOperation(int)
+
+CUnsharedConcreteFlyweight : AFlyweight
+	o_DoOperation(int)
+
+CConcreteEvenFlyweight : AFlyweight
+	o_DoOperation(int)
+
+CConcreteUnevenFlyweight : AFlyweight
+	o_DoOperation(int)
+
+CClient
+	main
+
+

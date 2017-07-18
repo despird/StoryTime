@@ -1,0 +1,20 @@
+AComponent 
+	(string m_strName)			//constructor with initialization of member field
+	a_Add(AComponent)
+	a_DumpContents()
+
+CComposite : AComponent, ->AComponent[][_ComponentList.()]	//collection define
+	(string m_strName)									//constructor that invokes "base.(m_strName)"
+	o_Add(AComponent)
+	o_DumpContents()
+
+CLeaf: AComponent
+	(string m_strName)
+	o_Add(AComponent)
+	o_DumpContents()
+
+
+CClient
+	AComponent SetupTree()
+	main
+

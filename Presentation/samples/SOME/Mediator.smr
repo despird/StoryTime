@@ -1,0 +1,16 @@
+CMediator -> CDataProviderColleague[_dataProvider],->CDataConsumerColleague[_dataConsumer]
+	IntroduceColleagues(CDataProviderColleague, CDataConsumerColleague)
+	DataChanged()
+	
+CDataConsumerColleague
+	NewValue(int)
+	
+CDataProviderColleague ->CMediator[_mediator]
+	int MyData
+	(CMediator)				/* means the parameter will be assigned to _mediator*/
+	ChangeData()
+
+CClient
+	main
+
+

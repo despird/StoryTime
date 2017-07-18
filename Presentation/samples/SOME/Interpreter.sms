@@ -1,0 +1,20 @@
+CClient.main
+{
+	CContext c.();
+	<%
+	ArrayList l = new ArrayList(); //really need a tree here!
+
+	// build up context information 
+	// . . .
+
+	// Populate abstract syntax tree with data
+	l.Add(new CTerminalExpression());
+	l.Add(new CNonterminalExpression());
+
+	// interpret
+	foreach (AAbstractExpression exp in l)
+	{
+		exp.Interpret(c);
+	}
+  %>        		
+}

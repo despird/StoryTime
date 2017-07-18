@@ -1,0 +1,17 @@
+CSubSystem_class1
+	OperationX()
+
+CSubSystem_class2
+	OperationY()
+
+CSubSystem_class3
+	OperationZ()
+
+CFacade ->CSubSystem_class1[_c1.()],->CSubSystem_class2[_c2.()],->CSubSystem_class3[_c3.()]
+	OperationWrapper()
+	
+
+CClient
+	main
+
+

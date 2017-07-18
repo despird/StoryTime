@@ -1,0 +1,13 @@
+ACommonSubject
+	a_Request()
+
+CActualSubject :ACommonSubject
+	()
+	o_Request()
+
+CProxy : ACommonSubject,->CActualSubject[_actualSubject]
+	o_Request()
+
+CClient
+	main
+	

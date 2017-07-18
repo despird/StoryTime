@@ -1,0 +1,35 @@
+CClient.main
+{
+	CClient c.();
+	AComponent component = c.SetupTree()
+	{
+		CComposite root.("root");
+		
+		CComposite composite.("composite");
+		root.Add<CComposite>(composite)
+		{
+			_ComponentList.Add(composite);
+		};
+		
+		CLeaf leaf1.("leaf1");
+		root.Add(leaf1);
+		
+		CLeaf leaf2.("leaf2");
+		composite.Add(leaf2);
+		
+		//...
+		
+		root;							//return root;
+	};
+	component.DumpContents<CComposite>()
+	{
+			<% Console.WriteLine("Node: {0}", m_strName); %>
+			<%foreach (AComponent c in _ComponentList)%>
+			<%{%>
+				c.DumpContents<CLeaf>()
+				{
+					<% Console.WriteLine("Node: {0}", m_strName); %>
+				};
+			<%}%>
+	};
+}

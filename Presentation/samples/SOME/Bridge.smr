@@ -1,0 +1,20 @@
+CAbstraction ->CImplementation[m_impToUse]
+	SetImplementation(CImplementation)
+	v_DumpString(string)
+
+CDerivedAbstraction_One : CAbstraction
+	o_DumpString(string)
+
+CImplementation
+	v_DoStringOp(string)
+
+CDerivedImplementation_One : CImplementation 
+	o_DoStringOp(string)
+
+CDerivedImplementation_Two : CImplementation 
+	o_DoStringOp(string)
+
+CClient
+	CAbstraction SetupMyParticularAbstraction() 
+	main
+

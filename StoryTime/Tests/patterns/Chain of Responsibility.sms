@@ -1,0 +1,64 @@
+CClient.main
+{
+	// Set up chain (usually one need to be done once)
+	AHandler firstHandler<CConcreteHandler1>.();
+	AHandler secondHandler<CConcreteHandler2>.();
+	AHandler thirdHandler<CConcreteHandler3>.();
+	
+	firstHandler.SetSuccessor(m_successorHandler = secondHandler);
+	secondHandler.SetSuccessor(m_successorHandler = thirdHandler);
+
+	// generate and fire CRequest
+	CRequest newCRequest.(2,"This are the CRequest parameters");
+
+	//CRequest is alias of newCRequest
+	firstHandler.HandleCRequest<CConcreteHandler1>(CRequest[newCRequest])				
+	{
+		<%
+			// determine if we can handle the CRequest
+			if (CRequest.CRequestType == 1) // some complex decision making!
+			{
+				// CRequest handling code goes here
+				Console.WriteLine("CRequest handled in ConcreteHandler1");
+			}
+			else 
+			{
+				// not handled here - pass on to next in the chain
+				if (m_successorHandler != null)
+			%>
+					m_successorHandler.HandleCRequest<CConcreteHandler2>(CRequest)
+					{
+						<%
+							// determine if we can handle the CRequest
+							if (CRequest.CRequestType == 2) // some complex decision making!
+							{
+								// CRequest handling code goes here
+								Console.WriteLine("CRequest handled in ConcreteHandler2");
+							}
+							else 
+							{
+								// not handled here - pass on to next in the chain
+								if (m_successorHandler != null)
+							%>
+									m_successorHandler.HandleCRequest<CConcreteHandler3>(CRequest)
+									{
+										<%
+											// determine if we can handle the CRequest
+											if (CRequest.CRequestType == 3) // some complex decision making!
+											{
+												// CRequest handling code goes here
+												Console.WriteLine("CRequest handled in ConcreteHandler3");
+											}
+											else 
+											{
+												// not handled here - pass on to next in the chain
+												if (m_successorHandler != null)
+													m_successorHandler.HandleCRequest(CRequest);
+											}		
+										%>
+									};
+							<%}%>
+					};
+		<%}%>
+	};
+}

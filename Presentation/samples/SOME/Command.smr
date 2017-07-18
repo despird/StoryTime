@@ -1,0 +1,15 @@
+CReceiver
+	InformAboutCommand()
+
+ACommand	->CReceiver[w_R]			//write-only property
+	a_Execute()
+	
+CConcreteCommand : ACommand
+	o_Execute()
+
+CInvoker ->ACommand[w_Command]		
+	ExecuteCommand()
+
+CClient 
+	main
+	

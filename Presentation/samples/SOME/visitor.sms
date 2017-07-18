@@ -1,0 +1,17 @@
+CClient.main
+{
+	CConcreteElementA eA.();
+	CConcreteElementB eB.();
+	CConcreteVisitor1 v1.();
+	
+	//eA.Accept(v1)
+	//{
+	//  m_myVisitor = v1;
+	//};
+	
+	eA.Accept(m_myVisitor = v1);
+	eA.DoSomeWork()
+	{
+  	m_myVisitor.VisitElementA(eA);			//"m_myVisitor.VisitElementA(this)"
+	};
+}

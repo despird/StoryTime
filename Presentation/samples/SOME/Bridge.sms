@@ -1,0 +1,24 @@
+CClient.main
+{
+	CClient c.();
+	CAbstraction a = c.SetupMyParticularAbstraction()
+	{
+		CAbstraction a<CDerivedAbstraction_One>.();
+		CImplementation b<CDerivedImplementation_Two>.();
+		a.SetImplementation(m_impToUse = b);				//in this context, 'a' should be a type of "CAbstraction"
+		a;
+	};
+	string str = "Clipcode";
+	a.DumpString<CDerivedAbstraction_One>(str)
+	{
+		<% str += ".com"; %>
+		m_impToUse.DoStringOp<CDerivedImplementation_Two>(str)
+		{
+			<%
+			Console.WriteLine("CDerivedImplementation_Two - print string twice");
+			Console.WriteLine("string = {0}", str);
+			Console.WriteLine("string = {0}", str);
+			%>
+		};
+	};
+}

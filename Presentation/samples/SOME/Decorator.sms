@@ -1,0 +1,28 @@
+CClient.main
+{
+	CClient client.();
+	AComponent c = client.Setup()
+	{
+			CConcreteComponent c.("This is the real component");
+			CConcreteDecorator d.("This is a decorator for the component");
+			
+			//quick assignment for set method
+			
+			d.SetComponent( m_actualComponent = c );
+			
+			//return d;
+			
+			d;
+	};
+	c.Draw<CConcreteDecorator>()
+	{
+		CustomDecoration();
+		Draw<ADecorator>()									//invoke base method
+		{
+			m_actualComponent.Draw<CConcreteComponent>()
+			{
+					<% Console.WriteLine("ConcreteComponent - {0}", strName); %>
+			}
+		};
+	};
+}

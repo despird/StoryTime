@@ -1,0 +1,22 @@
+CClient.main
+{
+	CProxy p.();
+	p.Request()
+	{
+		<%if (_actualSubject == null) %>
+		<%{ %>
+			_actualSubject.()
+			{
+				<%
+				Console.WriteLine("Starting to construct ActualSubject");		
+				Thread.Sleep(1000); // represents lots of processing! 
+				Console.WriteLine("Finished constructing ActualSubject");
+				%>
+			};
+		<%}%>
+		_actualSubject.Request()
+		{
+			<% Console.WriteLine("Executing request in ActualSubject"); %>
+		};
+	};
+}

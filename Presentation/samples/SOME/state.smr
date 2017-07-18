@@ -1,0 +1,21 @@
+AState
+	string m_strStatename
+	a_Pour()
+
+COpenedState : AState 
+	(string m_strStatename)				/* member m_strStatename should not be defined again becuase it has already been defined by its father*/
+	o_Pour()
+
+CClosedState : AState 
+	()
+	o_Pour()
+
+CContextColaBottle	->AState[_CurrentState]	->CCOpenedState[c_openedState.()] ->CClosedState[c_closedState.()]		
+	()				
+	SetState(string)						
+	Pour()
+
+CClient
+	main
+
+	

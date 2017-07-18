@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE505A2D-19F1-437D-B430-F97DB4B55FC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SOME.SomeLanguageCore</RootNamespace>
+    <AssemblyName>SomeLanguageCore</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeDom\CodeDomHelper.cs" />
+    <Compile Include="Compiler.cs" />
+    <Compile Include="EditingState.cs" />
+    <Compile Include="ErrorReport.cs" />
+    <Compile Include="Parser\SomeParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reporter.cs" />
+    <Compile Include="SomeCompilerException.cs" />
+    <Compile Include="SomeTextReader.cs" />
+    <Compile Include="CodeDom\Expressions\SomeExperessionConstruction.cs" />
+    <Compile Include="CodeDom\Expressions\SomeExpressionDefination.cs" />
+    <Compile Include="CodeDom\Expressions\SomeExpressionInvoking.cs" />
+    <Compile Include="CodeDom\Expressions\SomeExpressionObject.cs" />
+    <Compile Include="CodeDom\SomeClass.cs" />
+    <Compile Include="CodeDom\SomeDom.cs" />
+    <Compile Include="CodeDom\SomeField.cs" />
+    <Compile Include="CodeDom\SomeMethod.cs" />
+    <Compile Include="CodeDom\SomeProperty.cs" />
+    <Compile Include="CodeDom\SomeSequence.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatementAssignment.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatement.cs" />
+    <Compile Include="CodeDom\SomeTreeNodeBase.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatementComment.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatementCreation.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatementMethodInvoking.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatementReturn.cs" />
+    <Compile Include="CodeDom\Statements\SomeStatementSnippet.cs" />
+    <Compile Include="Tokens\SomeBasicTypes.cs" />
+    <Compile Include="Tokens\SomeChar.cs" />
+    <Compile Include="Tokens\SomeTokenList.cs" />
+    <Compile Include="Tokens\SomeTokenTypeEnum.cs" />
+    <Compile Include="Tokens\SomeTokenTypeString.cs" />
+    <Compile Include="Tokens\SomeToken.cs" />
+    <Compile Include="SomeOneLineReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

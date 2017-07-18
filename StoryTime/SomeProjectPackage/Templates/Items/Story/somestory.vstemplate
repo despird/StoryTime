@@ -1,0 +1,14 @@
+﻿<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>story.sms</DefaultName>
+    <Name>Stories</Name>
+    <Description>Stories</Description>
+    <Icon>story.ico</Icon>
+    <ProjectType>Some</ProjectType>
+    <SortOrder>10</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.smr" ReplaceParameters="true">story.sms</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

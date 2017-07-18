@@ -1,0 +1,29 @@
+CClient.main
+{
+	CMyApplication myApplication.();
+	myApplication.CreateFamily()
+	{
+		CMyFactory myFactory.();
+		ConstructObjects<ADPApplication>(myFactory)					//if this method belongs to one of its ancestors, should use "<AncestorName>"
+		{
+			m_doc = myFactory.CreateDocument<CMyFactory>() 
+			{ 
+				CMyDocument.(); 
+			};				
+			m_workspace = myFactory.CreateWorkspace<CMyFactory>() 
+			{	
+				CMyWorkspace.();	
+			};
+			m_view = myFactory.CreateView<CMyFactory>()	
+			{ 
+				CMyView.();
+			};
+		};
+	};
+	myApplication.DumpState()
+	{
+		m_doc.Dump();
+		m_workspace.Dump();
+		m_view.Dump();
+	};
+}

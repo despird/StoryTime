@@ -1,0 +1,23 @@
+CSubject
+	AObserver[] _list
+	string ImportantSubjectData
+	Attach(AObserver)
+	Detach(AObserver)
+	Notify()
+
+CConcreteSubject : CSubject
+	GetState()
+	SetState()
+
+AObserver
+	CSubject S
+	a_Update()
+
+CConcreteObserver : AObserver
+	(string _observerName)
+	o_Update()
+
+CClient
+	main
+
+

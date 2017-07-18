@@ -1,0 +1,13 @@
+﻿CClient_Strategy.main
+{
+    CFirstStrategy firstStrategy.();                        //c#: FirstStrategy firstStrategy = new FirstStrategy();
+    CContext c.(_s = firstStrategy);                        //Constructor with initialistion list
+    c.DoWork();                                             //Method invoking only
+    c.DoStrategyWork()                                      //Method invokding followed by defination
+    {                                                       //Definition beginning of Context::DoStrategyWork()
+        _s.DoAlgorithm<CFirstStrategy>()                        //Overriden method invoking followed by definition
+        {                                                       //Definition beginning of CFirstStrategy::DoAlgorithm()
+            <% Console.WriteLine("In first strategy");    %>             //Target code snippet
+        };                                                      //End of definition: CFirstStrategy::DoAlgorithm()
+    };                                                      //End of definition: Context::DoStrategyWork()
+}

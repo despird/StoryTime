@@ -1,0 +1,16 @@
+CClient.main
+{
+	int val;			//"int" will be reserved as a unknown type
+	CSingleton firstSingleton = CSingleton.Instance()			//static method invoke
+	{
+		<% if (_instance == null) {%>			
+			_instance.();
+		<% } %>
+		
+		_instance;				//return object
+	};
+	CSingleton secondSingleton = CSingleton.Instance();			//the second invoking, need not unfold
+
+	firstSingleton.X = 4;				
+	val = secondSingleton.X;
+}

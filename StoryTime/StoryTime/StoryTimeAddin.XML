@@ -1,0 +1,1678 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StoryTimeAddin</name>
+    </assembly>
+    <members>
+        <member name="T:StoryTime.CommandBar">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deAction">
+            <summary>
+              Looks up a localized string similar to Aktion.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deAddins">
+            <summary>
+              Looks up a localized string similar to Add-Ins.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deAnalyze">
+            <summary>
+              Looks up a localized string similar to Analysieren.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deBuild">
+            <summary>
+              Looks up a localized string similar to Erstellen.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deClass_Diagram">
+            <summary>
+              Looks up a localized string similar to Klassendiagramm.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deCommunity">
+            <summary>
+              Looks up a localized string similar to Community.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deData">
+            <summary>
+              Looks up a localized string similar to Daten.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deDatabase">
+            <summary>
+              Looks up a localized string similar to Datenbank.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to Datenbankdiagramm.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deDebug">
+            <summary>
+              Looks up a localized string similar to Debuggen.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deDiagram">
+            <summary>
+              Looks up a localized string similar to Diagramm.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deEdit">
+            <summary>
+              Looks up a localized string similar to Bearbeiten.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deFile">
+            <summary>
+              Looks up a localized string similar to Datei.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deFormat">
+            <summary>
+              Looks up a localized string similar to Format.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deFrames">
+            <summary>
+              Looks up a localized string similar to Rahmen.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deHelp">
+            <summary>
+              Looks up a localized string similar to Hilfe.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deImage">
+            <summary>
+              Looks up a localized string similar to Bild.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deLayout">
+            <summary>
+              Looks up a localized string similar to Layout.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deMacros">
+            <summary>
+              Looks up a localized string similar to Makros.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deProject">
+            <summary>
+              Looks up a localized string similar to Projekt.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deQuery">
+            <summary>
+              Looks up a localized string similar to Query.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deQuery_Designer">
+            <summary>
+              Looks up a localized string similar to Abfrage-Designer.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deRefactor">
+            <summary>
+              Looks up a localized string similar to Umgestalten.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deReport">
+            <summary>
+              Looks up a localized string similar to Bericht.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deResources">
+            <summary>
+              Looks up a localized string similar to Ressourcen.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deSchema">
+            <summary>
+              Looks up a localized string similar to Schema.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deStyles">
+            <summary>
+              Looks up a localized string similar to Formate.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deTable">
+            <summary>
+              Looks up a localized string similar to Tabelle.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deTable_Designer">
+            <summary>
+              Looks up a localized string similar to Tabellen-Designer.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deTeam">
+            <summary>
+              Looks up a localized string similar to Team.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deTest">
+            <summary>
+              Looks up a localized string similar to Testen.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deTools">
+            <summary>
+              Looks up a localized string similar to Extras.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deView">
+            <summary>
+              Looks up a localized string similar to Ansicht.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deWindow">
+            <summary>
+              Looks up a localized string similar to Fenster.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.deXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enAction">
+            <summary>
+              Looks up a localized string similar to Action.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enAddins">
+            <summary>
+              Looks up a localized string similar to Addins.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enAnalyze">
+            <summary>
+              Looks up a localized string similar to Analyze.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enBuild">
+            <summary>
+              Looks up a localized string similar to Build.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enClass_Diagram">
+            <summary>
+              Looks up a localized string similar to Class Diagram.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enCommunity">
+            <summary>
+              Looks up a localized string similar to Community.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enData">
+            <summary>
+              Looks up a localized string similar to Data.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enDatabase">
+            <summary>
+              Looks up a localized string similar to Database.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to Database Diagram.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enDebug">
+            <summary>
+              Looks up a localized string similar to Debug.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enDiagram">
+            <summary>
+              Looks up a localized string similar to Diagram.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enEdit">
+            <summary>
+              Looks up a localized string similar to Edit.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enFile">
+            <summary>
+              Looks up a localized string similar to File.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enFormat">
+            <summary>
+              Looks up a localized string similar to Format.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enFrames">
+            <summary>
+              Looks up a localized string similar to Frames.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enHelp">
+            <summary>
+              Looks up a localized string similar to Help.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enImage">
+            <summary>
+              Looks up a localized string similar to Image.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enLayout">
+            <summary>
+              Looks up a localized string similar to Layout.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enMacros">
+            <summary>
+              Looks up a localized string similar to Macros.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enProject">
+            <summary>
+              Looks up a localized string similar to Project.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enQuery">
+            <summary>
+              Looks up a localized string similar to Query.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enQuery_Designer">
+            <summary>
+              Looks up a localized string similar to Query Designer.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enRefactor">
+            <summary>
+              Looks up a localized string similar to Refactor.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enReport">
+            <summary>
+              Looks up a localized string similar to Report.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enResources">
+            <summary>
+              Looks up a localized string similar to Resources.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enSchema">
+            <summary>
+              Looks up a localized string similar to Schema.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enStyles">
+            <summary>
+              Looks up a localized string similar to Styles.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enTable">
+            <summary>
+              Looks up a localized string similar to Table.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enTable_Designer">
+            <summary>
+              Looks up a localized string similar to Table Designer.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enTeam">
+            <summary>
+              Looks up a localized string similar to Team.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enTest">
+            <summary>
+              Looks up a localized string similar to Test.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enTools">
+            <summary>
+              Looks up a localized string similar to Tools.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enView">
+            <summary>
+              Looks up a localized string similar to View.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enWindow">
+            <summary>
+              Looks up a localized string similar to Window.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.enXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esAction">
+            <summary>
+              Looks up a localized string similar to Acción.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esAddins">
+            <summary>
+              Looks up a localized string similar to Complementos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esAnalyze">
+            <summary>
+              Looks up a localized string similar to Analizar.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esBuild">
+            <summary>
+              Looks up a localized string similar to Generar.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esClass_Diagram">
+            <summary>
+              Looks up a localized string similar to Diagrama de clase.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esCommunity">
+            <summary>
+              Looks up a localized string similar to Comunidad.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esData">
+            <summary>
+              Looks up a localized string similar to Datos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esDatabase">
+            <summary>
+              Looks up a localized string similar to Base de datos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to Diagrama de base de datos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esDebug">
+            <summary>
+              Looks up a localized string similar to Depurar.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esDiagram">
+            <summary>
+              Looks up a localized string similar to Diagrama.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esEdit">
+            <summary>
+              Looks up a localized string similar to Editar.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esFile">
+            <summary>
+              Looks up a localized string similar to Archivo.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esFormat">
+            <summary>
+              Looks up a localized string similar to Formato.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esFrames">
+            <summary>
+              Looks up a localized string similar to Marcos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esHelp">
+            <summary>
+              Looks up a localized string similar to Ayuda.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esImage">
+            <summary>
+              Looks up a localized string similar to Imagen.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esLayout">
+            <summary>
+              Looks up a localized string similar to Diseño.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esMacros">
+            <summary>
+              Looks up a localized string similar to Macros.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esProject">
+            <summary>
+              Looks up a localized string similar to Proyecto.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esQuery">
+            <summary>
+              Looks up a localized string similar to Consulta.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esQuery_Designer">
+            <summary>
+              Looks up a localized string similar to Diseñador de consultas.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esRefactor">
+            <summary>
+              Looks up a localized string similar to Refactorizar.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esReport">
+            <summary>
+              Looks up a localized string similar to Informe.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esResources">
+            <summary>
+              Looks up a localized string similar to Recursos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esSchema">
+            <summary>
+              Looks up a localized string similar to Esquema.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esStyles">
+            <summary>
+              Looks up a localized string similar to Estilos.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esTable">
+            <summary>
+              Looks up a localized string similar to Tabla.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esTable_Designer">
+            <summary>
+              Looks up a localized string similar to Diseñador de tablas.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esTeam">
+            <summary>
+              Looks up a localized string similar to Equipo.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esTest">
+            <summary>
+              Looks up a localized string similar to Prueba.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esTools">
+            <summary>
+              Looks up a localized string similar to Herramientas.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esView">
+            <summary>
+              Looks up a localized string similar to Ver.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esWindow">
+            <summary>
+              Looks up a localized string similar to Ventana.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.esXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frAction">
+            <summary>
+              Looks up a localized string similar to Action.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frAddins">
+            <summary>
+              Looks up a localized string similar to Compléments.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frAnalyze">
+            <summary>
+              Looks up a localized string similar to Analyser.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frBuild">
+            <summary>
+              Looks up a localized string similar to Générer.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frClass_Diagram">
+            <summary>
+              Looks up a localized string similar to Diagramme de classes.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frCommunity">
+            <summary>
+              Looks up a localized string similar to Communauté.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frData">
+            <summary>
+              Looks up a localized string similar to Données.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frDatabase">
+            <summary>
+              Looks up a localized string similar to Base de données.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to Schéma de base de données.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frDebug">
+            <summary>
+              Looks up a localized string similar to Déboguer.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frDiagram">
+            <summary>
+              Looks up a localized string similar to Schéma.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frEdit">
+            <summary>
+              Looks up a localized string similar to Modifier.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frFile">
+            <summary>
+              Looks up a localized string similar to Fichier.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frFormat">
+            <summary>
+              Looks up a localized string similar to Format.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frFrames">
+            <summary>
+              Looks up a localized string similar to Frames.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frHelp">
+            <summary>
+              Looks up a localized string similar to ?.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frImage">
+            <summary>
+              Looks up a localized string similar to Image.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frLayout">
+            <summary>
+              Looks up a localized string similar to Disposition.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frMacros">
+            <summary>
+              Looks up a localized string similar to Macros.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frProject">
+            <summary>
+              Looks up a localized string similar to Projet.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frQuery">
+            <summary>
+              Looks up a localized string similar to Requête.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frQuery_Designer">
+            <summary>
+              Looks up a localized string similar to Concepteur de requêtes.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frRefactor">
+            <summary>
+              Looks up a localized string similar to Refactoriser.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frReport">
+            <summary>
+              Looks up a localized string similar to Rapport.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frResources">
+            <summary>
+              Looks up a localized string similar to Ressources.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frSchema">
+            <summary>
+              Looks up a localized string similar to Schéma.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frStyles">
+            <summary>
+              Looks up a localized string similar to Styles.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frTable">
+            <summary>
+              Looks up a localized string similar to Tableau.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frTable_Designer">
+            <summary>
+              Looks up a localized string similar to Concepteur de tables.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frTeam">
+            <summary>
+              Looks up a localized string similar to équipe.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frTest">
+            <summary>
+              Looks up a localized string similar to Test.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frTools">
+            <summary>
+              Looks up a localized string similar to Outils.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frView">
+            <summary>
+              Looks up a localized string similar to Affichage.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frWindow">
+            <summary>
+              Looks up a localized string similar to Fenêtre.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.frXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itAction">
+            <summary>
+              Looks up a localized string similar to Azione.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itAddins">
+            <summary>
+              Looks up a localized string similar to Componenti aggiuntivi.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itAnalyze">
+            <summary>
+              Looks up a localized string similar to Analizza.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itBuild">
+            <summary>
+              Looks up a localized string similar to Genera.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itClass_Diagram">
+            <summary>
+              Looks up a localized string similar to Diagramma classi.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itCommunity">
+            <summary>
+              Looks up a localized string similar to Comunità.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itData">
+            <summary>
+              Looks up a localized string similar to Dati.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itDatabase">
+            <summary>
+              Looks up a localized string similar to Database.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to Diagramma database.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itDebug">
+            <summary>
+              Looks up a localized string similar to Debug.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itDiagram">
+            <summary>
+              Looks up a localized string similar to Diagramma.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itEdit">
+            <summary>
+              Looks up a localized string similar to Modifica.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itFile">
+            <summary>
+              Looks up a localized string similar to File.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itFormat">
+            <summary>
+              Looks up a localized string similar to Formato.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itFrames">
+            <summary>
+              Looks up a localized string similar to Frame.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itHelp">
+            <summary>
+              Looks up a localized string similar to ?.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itImage">
+            <summary>
+              Looks up a localized string similar to Immagine.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itLayout">
+            <summary>
+              Looks up a localized string similar to Layout.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itMacros">
+            <summary>
+              Looks up a localized string similar to Macro.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itProject">
+            <summary>
+              Looks up a localized string similar to Progetto.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itQuery">
+            <summary>
+              Looks up a localized string similar to Query.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itQuery_Designer">
+            <summary>
+              Looks up a localized string similar to Progettazione query.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itRefactor">
+            <summary>
+              Looks up a localized string similar to Effettua refactoring.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itReport">
+            <summary>
+              Looks up a localized string similar to Report.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itResources">
+            <summary>
+              Looks up a localized string similar to Risorse.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itSchema">
+            <summary>
+              Looks up a localized string similar to Schema.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itStyles">
+            <summary>
+              Looks up a localized string similar to Stili.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itTable">
+            <summary>
+              Looks up a localized string similar to Tabella.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itTable_Designer">
+            <summary>
+              Looks up a localized string similar to Progettazione tabelle.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itTeam">
+            <summary>
+              Looks up a localized string similar to Team.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itTest">
+            <summary>
+              Looks up a localized string similar to Prova.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itTools">
+            <summary>
+              Looks up a localized string similar to Strumenti.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itView">
+            <summary>
+              Looks up a localized string similar to Visualizza.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itWindow">
+            <summary>
+              Looks up a localized string similar to Finestra.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.itXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaAction">
+            <summary>
+              Looks up a localized string similar to 操作.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaAddins">
+            <summary>
+              Looks up a localized string similar to アドイン.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaAnalyze">
+            <summary>
+              Looks up a localized string similar to 分析.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaBuild">
+            <summary>
+              Looks up a localized string similar to ビルド.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaClass_Diagram">
+            <summary>
+              Looks up a localized string similar to クラス ダイアグラム.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaCommunity">
+            <summary>
+              Looks up a localized string similar to コミュニティ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaData">
+            <summary>
+              Looks up a localized string similar to データ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaDatabase">
+            <summary>
+              Looks up a localized string similar to データベース.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to データベース ダイアグラム.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaDebug">
+            <summary>
+              Looks up a localized string similar to デバッグ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaDiagram">
+            <summary>
+              Looks up a localized string similar to ダイアグラム.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaEdit">
+            <summary>
+              Looks up a localized string similar to 編集.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaFile">
+            <summary>
+              Looks up a localized string similar to ファイル.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaFormat">
+            <summary>
+              Looks up a localized string similar to 書式.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaFrames">
+            <summary>
+              Looks up a localized string similar to フレーム.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaHelp">
+            <summary>
+              Looks up a localized string similar to ヘルプ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaImage">
+            <summary>
+              Looks up a localized string similar to イメージ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaLayout">
+            <summary>
+              Looks up a localized string similar to レイアウト.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaMacros">
+            <summary>
+              Looks up a localized string similar to マクロ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaProject">
+            <summary>
+              Looks up a localized string similar to プロジェクト.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaQuery">
+            <summary>
+              Looks up a localized string similar to クエリ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaQuery_Designer">
+            <summary>
+              Looks up a localized string similar to クエリ デザイナ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaRefactor">
+            <summary>
+              Looks up a localized string similar to リファクタ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaReport">
+            <summary>
+              Looks up a localized string similar to レポート.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaResources">
+            <summary>
+              Looks up a localized string similar to リソース.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaSchema">
+            <summary>
+              Looks up a localized string similar to スキーマ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaStyles">
+            <summary>
+              Looks up a localized string similar to スタイル.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaTable">
+            <summary>
+              Looks up a localized string similar to テーブル.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaTable_Designer">
+            <summary>
+              Looks up a localized string similar to テーブル デザイナ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaTeam">
+            <summary>
+              Looks up a localized string similar to チーム.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaTest">
+            <summary>
+              Looks up a localized string similar to テスト.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaTools">
+            <summary>
+              Looks up a localized string similar to ツール.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaView">
+            <summary>
+              Looks up a localized string similar to 表示.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaWindow">
+            <summary>
+              Looks up a localized string similar to ウィンドウ.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.jaXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koAction">
+            <summary>
+              Looks up a localized string similar to 작업.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koAddins">
+            <summary>
+              Looks up a localized string similar to 추가 기능.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koAnalyze">
+            <summary>
+              Looks up a localized string similar to 분석.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koBuild">
+            <summary>
+              Looks up a localized string similar to 빌드.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koClass_Diagram">
+            <summary>
+              Looks up a localized string similar to 클래스 다이어그램.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koCommunity">
+            <summary>
+              Looks up a localized string similar to 커뮤니티.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koData">
+            <summary>
+              Looks up a localized string similar to 데이터.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koDatabase">
+            <summary>
+              Looks up a localized string similar to 데이터베이스.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to 데이터베이스 다이어그램.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koDebug">
+            <summary>
+              Looks up a localized string similar to 디버그.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koDiagram">
+            <summary>
+              Looks up a localized string similar to 다이어그램.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koEdit">
+            <summary>
+              Looks up a localized string similar to 편집.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koFile">
+            <summary>
+              Looks up a localized string similar to 파일.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koFormat">
+            <summary>
+              Looks up a localized string similar to 서식.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koFrames">
+            <summary>
+              Looks up a localized string similar to 프레임.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koHelp">
+            <summary>
+              Looks up a localized string similar to 도움말.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koImage">
+            <summary>
+              Looks up a localized string similar to 이미지.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koLayout">
+            <summary>
+              Looks up a localized string similar to 레이아웃.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koMacros">
+            <summary>
+              Looks up a localized string similar to 매크로.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koProject">
+            <summary>
+              Looks up a localized string similar to 프로젝트.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koQuery">
+            <summary>
+              Looks up a localized string similar to 쿼리.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koQuery_Designer">
+            <summary>
+              Looks up a localized string similar to 쿼리 디자이너.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koRefactor">
+            <summary>
+              Looks up a localized string similar to 리팩터링.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koReport">
+            <summary>
+              Looks up a localized string similar to 보고서.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koResources">
+            <summary>
+              Looks up a localized string similar to 리소스.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koSchema">
+            <summary>
+              Looks up a localized string similar to 스키마.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koStyles">
+            <summary>
+              Looks up a localized string similar to 스타일.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koTable">
+            <summary>
+              Looks up a localized string similar to 테이블.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koTable_Designer">
+            <summary>
+              Looks up a localized string similar to 테이블 디자이너.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koTeam">
+            <summary>
+              Looks up a localized string similar to 팀.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koTest">
+            <summary>
+              Looks up a localized string similar to 테스트.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koTools">
+            <summary>
+              Looks up a localized string similar to 도구.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koView">
+            <summary>
+              Looks up a localized string similar to 뷰.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koWindow">
+            <summary>
+              Looks up a localized string similar to 창.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.koXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.save">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSAction">
+            <summary>
+              Looks up a localized string similar to 操作.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSAddins">
+            <summary>
+              Looks up a localized string similar to 外接程序.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSAnalyze">
+            <summary>
+              Looks up a localized string similar to 分析.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSBuild">
+            <summary>
+              Looks up a localized string similar to 生成.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSClass_Diagram">
+            <summary>
+              Looks up a localized string similar to 类关系图.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSCommunity">
+            <summary>
+              Looks up a localized string similar to 社区.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSData">
+            <summary>
+              Looks up a localized string similar to 数据.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSDatabase">
+            <summary>
+              Looks up a localized string similar to 数据库.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to 数据库关系图.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSDebug">
+            <summary>
+              Looks up a localized string similar to 调试.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSDiagram">
+            <summary>
+              Looks up a localized string similar to 关系图.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSEdit">
+            <summary>
+              Looks up a localized string similar to 编辑.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSFile">
+            <summary>
+              Looks up a localized string similar to 文件.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSFormat">
+            <summary>
+              Looks up a localized string similar to 格式.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSFrames">
+            <summary>
+              Looks up a localized string similar to 框架.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSHelp">
+            <summary>
+              Looks up a localized string similar to 帮助.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSImage">
+            <summary>
+              Looks up a localized string similar to 图像.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSLayout">
+            <summary>
+              Looks up a localized string similar to 布局.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSMacros">
+            <summary>
+              Looks up a localized string similar to 宏.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSProject">
+            <summary>
+              Looks up a localized string similar to 项目.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSQuery">
+            <summary>
+              Looks up a localized string similar to 查询.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSQuery_Designer">
+            <summary>
+              Looks up a localized string similar to 查询设计器.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSRefactor">
+            <summary>
+              Looks up a localized string similar to 重构.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSReport">
+            <summary>
+              Looks up a localized string similar to 报表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSResources">
+            <summary>
+              Looks up a localized string similar to 资源.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSSchema">
+            <summary>
+              Looks up a localized string similar to 架构.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSStyles">
+            <summary>
+              Looks up a localized string similar to 样式.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSTable">
+            <summary>
+              Looks up a localized string similar to 表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSTable_Designer">
+            <summary>
+              Looks up a localized string similar to 表设计器.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSTeam">
+            <summary>
+              Looks up a localized string similar to 工作组.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSTest">
+            <summary>
+              Looks up a localized string similar to 测试.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSTools">
+            <summary>
+              Looks up a localized string similar to 工具.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSView">
+            <summary>
+              Looks up a localized string similar to 视图.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSWindow">
+            <summary>
+              Looks up a localized string similar to 窗口.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHSXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTAction">
+            <summary>
+              Looks up a localized string similar to 動作.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTAddins">
+            <summary>
+              Looks up a localized string similar to 增益集.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTAnalyze">
+            <summary>
+              Looks up a localized string similar to 分析.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTBuild">
+            <summary>
+              Looks up a localized string similar to 建置.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTClass_Diagram">
+            <summary>
+              Looks up a localized string similar to 類別圖表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTCommunity">
+            <summary>
+              Looks up a localized string similar to 社群.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTData">
+            <summary>
+              Looks up a localized string similar to 資料.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTDatabase">
+            <summary>
+              Looks up a localized string similar to 資料庫.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTDatabase_Diagram">
+            <summary>
+              Looks up a localized string similar to 資料庫圖表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTDebug">
+            <summary>
+              Looks up a localized string similar to 偵錯.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTDiagram">
+            <summary>
+              Looks up a localized string similar to 圖表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTEdit">
+            <summary>
+              Looks up a localized string similar to 編輯.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTFile">
+            <summary>
+              Looks up a localized string similar to 檔案.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTFormat">
+            <summary>
+              Looks up a localized string similar to 格式.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTFrames">
+            <summary>
+              Looks up a localized string similar to 框架.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTHelp">
+            <summary>
+              Looks up a localized string similar to 說明.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTImage">
+            <summary>
+              Looks up a localized string similar to 影像.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTLayout">
+            <summary>
+              Looks up a localized string similar to 配置.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTMacros">
+            <summary>
+              Looks up a localized string similar to 巨集.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTProject">
+            <summary>
+              Looks up a localized string similar to 專案.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTQuery">
+            <summary>
+              Looks up a localized string similar to 查詢.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTQuery_Designer">
+            <summary>
+              Looks up a localized string similar to 查詢設計工具.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTRefactor">
+            <summary>
+              Looks up a localized string similar to 重整.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTReport">
+            <summary>
+              Looks up a localized string similar to 報表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTResources">
+            <summary>
+              Looks up a localized string similar to 資源.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTSchema">
+            <summary>
+              Looks up a localized string similar to 結構描述.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTStyles">
+            <summary>
+              Looks up a localized string similar to 樣式.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTTable">
+            <summary>
+              Looks up a localized string similar to 資料表.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTTable_Designer">
+            <summary>
+              Looks up a localized string similar to 資料表設計工具.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTTeam">
+            <summary>
+              Looks up a localized string similar to 小組.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTTest">
+            <summary>
+              Looks up a localized string similar to 測試.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTTools">
+            <summary>
+              Looks up a localized string similar to 工具.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTView">
+            <summary>
+              Looks up a localized string similar to 檢視.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTWindow">
+            <summary>
+              Looks up a localized string similar to 視窗.
+            </summary>
+        </member>
+        <member name="P:StoryTime.CommandBar.zh_CHTXML">
+            <summary>
+              Looks up a localized string similar to XML.
+            </summary>
+        </member>
+        <member name="T:StoryTime.Connect">
+            <summary>The object for implementing an Add-in.</summary>
+            <seealso class='IDTExtensibility2' />
+        </member>
+        <member name="M:StoryTime.Connect.#ctor">
+            <summary>Implements the constructor for the Add-in object. Place your initialization code within this method.</summary>
+        </member>
+        <member name="M:StoryTime.Connect.OnConnection(System.Object,Extensibility.ext_ConnectMode,System.Object,System.Array@)">
+            <summary>Implements the OnConnection method of the IDTExtensibility2 interface. Receives notification that the Add-in is being loaded.</summary>
+            <param term='application'>Root object of the host application.</param>
+            <param term='connectMode'>Describes how the Add-in is being loaded.</param>
+            <param term='addInInst'>Object representing this Add-in.</param>
+            <seealso class='IDTExtensibility2' />
+        </member>
+        <member name="M:StoryTime.Connect.OnDisconnection(Extensibility.ext_DisconnectMode,System.Array@)">
+            <summary>Implements the OnDisconnection method of the IDTExtensibility2 interface. Receives notification that the Add-in is being unloaded.</summary>
+            <param term='disconnectMode'>Describes how the Add-in is being unloaded.</param>
+            <param term='custom'>Array of parameters that are host application specific.</param>
+            <seealso class='IDTExtensibility2' />
+        </member>
+        <member name="M:StoryTime.Connect.OnAddInsUpdate(System.Array@)">
+            <summary>Implements the OnAddInsUpdate method of the IDTExtensibility2 interface. Receives notification when the collection of Add-ins has changed.</summary>
+            <param term='custom'>Array of parameters that are host application specific.</param>
+            <seealso class='IDTExtensibility2' />		
+        </member>
+        <member name="M:StoryTime.Connect.OnStartupComplete(System.Array@)">
+            <summary>Implements the OnStartupComplete method of the IDTExtensibility2 interface. Receives notification that the host application has completed loading.</summary>
+            <param term='custom'>Array of parameters that are host application specific.</param>
+            <seealso class='IDTExtensibility2' />
+        </member>
+        <member name="M:StoryTime.Connect.OnBeginShutdown(System.Array@)">
+            <summary>Implements the OnBeginShutdown method of the IDTExtensibility2 interface. Receives notification that the host application is being unloaded.</summary>
+            <param term='custom'>Array of parameters that are host application specific.</param>
+            <seealso class='IDTExtensibility2' />
+        </member>
+        <member name="M:StoryTime.Connect.QueryStatus(System.String,EnvDTE.vsCommandStatusTextWanted,EnvDTE.vsCommandStatus@,System.Object@)">
+            <summary>Implements the QueryStatus method of the IDTCommandTarget interface. This is called when the command's availability is updated</summary>
+            <param term='commandName'>The name of the command to determine state for.</param>
+            <param term='neededText'>Text that is needed for the command.</param>
+            <param term='status'>The state of the command in the user interface.</param>
+            <param term='commandText'>Text requested by the neededText parameter.</param>
+            <seealso class='Exec' />
+        </member>
+        <member name="M:StoryTime.Connect.Exec(System.String,EnvDTE.vsCommandExecOption,System.Object@,System.Object@,System.Boolean@)">
+            <summary>Implements the Exec method of the IDTCommandTarget interface. This is called when the command is invoked.</summary>
+            <param term='commandName'>The name of the command to execute.</param>
+            <param term='executeOption'>Describes how the command should be run.</param>
+            <param term='varIn'>Parameters passed from the caller to the command handler.</param>
+            <param term='varOut'>Parameters passed from the command handler to the caller.</param>
+            <param term='handled'>Informs the caller if the command was handled or not.</param>
+            <seealso class='Exec' />
+        </member>
+        <member name="F:StoryTime.UI.UserStoryForm.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:StoryTime.UI.UserStoryForm.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:StoryTime.UI.UserStoryForm.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:StoryTime.Configuration">
+            <summary>
+            Configuration data from option page
+            </summary>
+        </member>
+    </members>
+</doc>

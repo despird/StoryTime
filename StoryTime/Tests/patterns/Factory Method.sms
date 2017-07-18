@@ -1,0 +1,17 @@
+CClient.main
+{
+	CMyApplication myApplication.();
+	myApplication.ConstructObjects<ADPApplication>()
+	{
+		//override method define
+		CreateDocument<CMyApplication>()	
+		{
+				m_doc<CMyDocument>.();				
+				//"m_doc = new MyDocument()"
+		};
+	};
+	myApplication.Dump()
+	{
+		//MyApplication exists				//comment
+	};
+}

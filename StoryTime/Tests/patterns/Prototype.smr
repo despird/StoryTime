@@ -1,0 +1,12 @@
+AAbstractPrototype
+	AAbstractPrototype a_CloneYourself()
+	
+CMyPrototype: AAbstractPrototype
+	AAbstractPrototype o_CloneYourself()
+
+CDemo -> AAbstractPrototype[_internalPrototype]
+	SetPrototype(AAbstractPrototype)
+	SomeImportantOperation()
+
+CClient
+	main

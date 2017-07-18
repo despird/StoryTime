@@ -1,0 +1,16 @@
+﻿AStrategy                       //c#: Abstract class Strategy
+    a_DoAlgorithm()             //c#: public abstract void DoAlgorithm()
+
+CFirstStrategy : AStrategy      //c#: class FirstStrategy: Strategy
+    o_DoAlgorithm()             //c#: public override void DoAlgorithm()
+
+CSecondStrategy : AStrategy
+    o_DoAlgorithm()
+
+CContext ->AStrategy[_s]        //reference list
+    (AStrategy)                 //constructor
+    DoWork()
+    DoStrategyWork()
+
+CClient_Strategy
+    main                        //main entry

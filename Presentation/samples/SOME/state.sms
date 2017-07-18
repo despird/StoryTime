@@ -1,0 +1,33 @@
+CClient.main
+{
+	CContextColaBottle contextColaBottle.()
+	{
+		_CurrentState = _closedState;
+	};
+
+	<% Console.WriteLine("initial state is closed"); %>
+
+	<% Console.WriteLine("Now trying to pour"); %>
+	contextColaBottle.Pour()
+	{
+		_CurrentState.Pour();					//override function should not be unfolded in this situation
+	};
+
+	<% Console.WriteLine("Open bottle"); %>
+	contextColaBottle.SetState(newState["CContextColaBottle.BottleStateSetting.Opened"])			//alias for parameter, all the content between [] will be reserved
+	{
+			<%
+			if (newState == BottleStateSetting.Closed)
+			{
+				_CurrentState = _closedState;
+			}
+			else 
+			{
+				_CurrentState = _openedState;
+			}
+			%>	
+	};
+
+	<% Console.WriteLine("Try to pour again");%>
+	contextColaBottle.Pour();
+}

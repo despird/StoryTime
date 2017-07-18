@@ -1,0 +1,40 @@
+﻿ADPDocument
+    a_Dump()
+
+ADPWorkspace
+    a_Dump()
+
+ADPView
+    a_Dump()
+
+CMyDocument :ADPDocument
+    ()
+    o_Dump()
+
+CMyWorkspace :ADPWorkspace
+    o_Dump()
+
+CMyView : ADPView
+    o_Dump()
+
+ADPFactory
+    ADPDocument a_CreateDocument()
+    ADPWorkspace a_CreateWorkspace()
+    ADPView a_CreateView()
+
+CMyFactory :ADPFactory 
+    ADPDocument o_CreateDocument()
+    ADPWorkspace o_CreateWorkspace()
+    ADPView o_CreateView()
+
+ADPApplication ->ADPDocument[m_doc],->ADPWorkspace[m_workspace],->ADPView[m_view]        //referrence list, be deviden by comma
+    ConstructObjects(ADPFactory)
+    a_Dump()
+    DumpState()
+
+CMyApplication :ADPApplication, ->CMyFactory[_myFactory.()]            //ref list and inherit list, ".()" means it will be created in defination
+    o_Dump()
+    CreateFamily()
+
+CClient_AF
+    main

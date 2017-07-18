@@ -1,0 +1,27 @@
+CClient.main
+{
+	CConcreteSubject s.();
+	CConcreteObserver o1.("first observer");				//constant identifier can only be string or number
+	CConcreteObserver o2.("second observer");
+	
+	s.Attach(o1)
+	{
+		_list.Add(o1);
+		o1.ObservedSubject = s;			//"o1.ObservedSubject = this"
+	};
+	
+	s.Attach(o2);
+	
+	<% s.ImportantSubjectData = "This is important subject data"; %>
+	
+	s.Notify()
+	{
+		<% 																	//if you don't wanna unfold any invoking, just snip all 
+		foreach (Observer o in list) 
+		{ 
+			o.Update();
+		}
+		%>
+	};
+}
+
